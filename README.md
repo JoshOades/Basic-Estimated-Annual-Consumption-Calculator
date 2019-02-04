@@ -15,3 +15,5 @@ We do this by
 4)Multiplying the daily value by 365 to calculate an EAC.
 
 We would like an easy to use javascript tool that will allow us to enter bill dates and consumption and calculate the EAC for us. We will not require any DB functionality.
+
+
