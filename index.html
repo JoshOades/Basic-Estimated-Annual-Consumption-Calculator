@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Annual Consumption Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">Estimated Annual Consumption Calculator</h1>
+        <h3 class="bill-start">Billing Start Date</h3>
+        <input type="date" class="date-start">
+        <h3 class="bill-end">Billing End Date</h3>
+        <input type="date" class="date-end">
+        <h3 class="consumption">Consumption <span class="kwh">(kWh) </span></h3>
+        <input type="text" id="usage" class="usage-text" placeholder="30 kWh">
+        <button type="button" id="calculate" class="calculate-button">Calculate</button>
+    </div>
+    <div class="wrapper-result">
+        <h3 class="days">Total Days:</h3>
+        <div class="total-days-billed" id="total-days">11</div>
+        <h3 class="daily-consumptionvalue">Daily Consumption (kWh):</h3>
+        <div class="daily-comp" id="daily-consumption">35</div>
+        <h1 class="eac-consumptionvalue">Estimated Annual Consumption (kWh):</h3>
+        <div class="eac-comp" id="eac-consumption">5012</div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
